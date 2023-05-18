@@ -14,7 +14,7 @@ project create: flutter create -t skeleton -a java -i swift --org com.meraj proj
 
 clear the codebase: flutter clean
 
-getting all: glutter pub get
+getting all: flutter pub get
 
 This project is running on latest flutter version 3.10.1
 
