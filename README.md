@@ -11,13 +11,16 @@ This application is for Android and iOS.
 ## Commands:
 
 project create: flutter create -t skeleton -a java -i swift --org com.meraj project_app
+
 clear the codebase: flutter clean
+
 getting all: glutter pub get
 
 This project is running on latest flutter version 3.10.1
 
 ## Project Structure
 lib
+
 -> src
 
   -> constsnts
