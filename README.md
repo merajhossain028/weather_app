@@ -1,30 +1,43 @@
 # weather_app
 
-A new Flutter project.
+This is a one page Weather update Application.
+This app will wants to know your current location and 
+give you the weather update from your current location.
+The all data comes from API.
+You can also see the previous weather update history.
 
-## Getting Started
+This application is for Android and iOS.
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+## Commands:
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+project create: flutter create -t skeleton -a java -i swift --org com.meraj project_app
+clear the codebase: flutter clean
+getting all: glutter pub get
 
-## Assets
+This project is running on latest flutter version 3.10.1
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
-
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
-
-## Localization
-
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
-
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+## Project Structure
+lib
+-> src
+  -> constsnts
+  -> db
+  -> localization
+  -> modules
+    -> home
+      -> api
+        -> weather.api.dart
+      -> componets
+        -> weather.item.dart
+      -> function
+        -> location.function.dart
+      -> model
+      -> provider
+      -> view
+        -> home.view.dart
+    -> router
+    -> setting
+  -> theme
+  -> utils
+  -> app.dart
+  
+-> main.dart
