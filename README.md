@@ -19,25 +19,45 @@ This project is running on latest flutter version 3.10.1
 ## Project Structure
 lib
 -> src
+
   -> constsnts
+  
   -> db
+  
   -> localization
+  
   -> modules
+  
     -> home
+    
       -> api
+      
         -> weather.api.dart
+        
       -> componets
+      
         -> weather.item.dart
+        
       -> function
+      
         -> location.function.dart
+        
       -> model
+      
       -> provider
+      
       -> view
+      
         -> home.view.dart
+        
     -> router
+    
     -> setting
+    
   -> theme
+  
   -> utils
+  
   -> app.dart
   
 -> main.dart
